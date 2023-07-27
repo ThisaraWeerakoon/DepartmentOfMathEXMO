@@ -1,1 +1,1 @@
-# DepartmentOfMathEXMO
+# MathSimulationWebApp
