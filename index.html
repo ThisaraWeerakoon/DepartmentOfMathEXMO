@@ -7,20 +7,23 @@
   <link rel="stylesheet" href="homePageStyle.css">
 </head>
 <body>
-  <header>
-    <!-- ... Header content ... -->
-    <div class="logo-container">
-        <img src="./exmo.png" alt="EXMO Logo">
-      </div>
-      <nav>
-        <ul>
+    <top-section class="top-nav">
+        <div>
+          <img src="./exmo.png" height="47px" top="10px">
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+        <div class='menu-button'></div>
+      </label>
+        <ul class="menu">
+          <!--add links-->
           <li><a href="./simulation.html">Simulations</a></li>
           <li><a href="./apparatus.html">Apparatus</a></li>
           <li><a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi">Math Games</a></li>
           <li><a href="https://sudoku.com/how-to-play/sudoku-rules-for-complete-beginners/">Robotic Sudoku Challenge</a></li>
+          
         </ul>
-      </nav>
-  </header>
+      </top-section>
   <main>
     <section class="hero">
       <div class="centered">
@@ -96,5 +99,4 @@
   </footer>
 </body>
 </html>
-
 
